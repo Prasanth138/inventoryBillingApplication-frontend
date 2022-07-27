@@ -30,7 +30,7 @@ const AddStock = ({ setShow, size }) => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "http://localhost:5000/api/products";
+			const url = "https://inventory-billing.herokuapp.com/api/products";
 			const { data: setData } = await axios.post(url, data);
 			alert("Product Added Successfully..!")
 			navigate("/");

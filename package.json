@@ -53,7 +53,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000/api",
+  "proxy": "https://inventory-billing.herokuapp.com/api",
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",

@@ -37,7 +37,7 @@ const Signup = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "http://localhost:5000/api/auth/register";
+			const url = "https://inventory-billing.herokuapp.com/api/auth/register";
 			const { data: setData } = await axios.post(url, data);
 			alert("User Created Successfully..!")
 			navigate("/login");

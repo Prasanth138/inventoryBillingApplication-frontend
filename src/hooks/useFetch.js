@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 const useFetch = (url) => {
-  const URL="http://localhost:5000/api";
+  const URL="https://inventory-billing.herokuapp.com/api";
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
